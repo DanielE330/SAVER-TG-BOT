@@ -8,7 +8,10 @@ from aiogram.utils.markdown import hbold
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+token = open("TOKEN.txt")
+TOKEN = token.read()
+token.close()
+
 file = open("SAVE_FOLDER.txt")
 SAVE_FOLDER = file.read()
 file.close()
