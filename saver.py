@@ -23,7 +23,6 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
-    """Обработчик команды /start"""
     await message.answer(
         f"Привет, {hbold(message.from_user.first_name)}! Отправь мне любой файл, и я сохраню его."
     )
@@ -109,7 +108,6 @@ async def handle_voice(message: types.Message):
     )
 
 async def main():
-    """Запуск бота"""
     await dp.start_polling(bot)
 
 if __name__ == '__main__':
