@@ -1,6 +1,6 @@
 # О проекте
 
-saver tg bot - это простой бот для Telegram, который сохраняет файлы, отправленные пользователями, в указанную папку на сервере([SAVE_FOLDER.txt](https://github.com/DanielE330/SAVER-TG-BOT/blob/main/SAVE_FOLDER.txt)), а также пользователь может указать token в файле [OKEN.txt](https://github.com/DanielE330/SAVER-TG-BOT/blob/main/TOKEN.txt). 
+saver tg bot - это простой бот для Telegram, который сохраняет файлы, отправленные пользователями, в указанную папку на сервере([SAVE_FOLDER.txt](https://github.com/DanielE330/SAVER-TG-BOT/blob/main/SAVE_FOLDER.txt)), а также пользователь может указать token в файле [TOKEN.txt](https://github.com/DanielE330/SAVER-TG-BOT/blob/main/TOKEN.txt). 
 Бот поддерживает различные типы файлов: документы, фотографии, аудио, видео и голосовые сообщения.
 
 ### функционал
